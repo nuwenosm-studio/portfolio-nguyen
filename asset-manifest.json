@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-nguyen/static/css/main.c8ab1670.css",
+    "main.js": "/portfolio-nguyen/static/js/main.3022b7a7.js",
+    "index.html": "/portfolio-nguyen/index.html",
+    "main.c8ab1670.css.map": "/portfolio-nguyen/static/css/main.c8ab1670.css.map",
+    "main.3022b7a7.js.map": "/portfolio-nguyen/static/js/main.3022b7a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8ab1670.css",
+    "static/js/main.3022b7a7.js"
+  ]
+}
