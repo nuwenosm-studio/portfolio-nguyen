@@ -230,8 +230,8 @@ a {
 .nuwen_img {
     width: var(--width-container);
     height: var(--height-img-cover);
-    background-color: var(--clr-light);
     background-color: var(--clr-dark);
+    border-radius: var(--br-container);
 }
 .nuwen_img img {
     width: 100%;
@@ -429,23 +429,6 @@ a {
     display: grid;
     place-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  --------------------------------------------------
     5.  gallery   section
         a.  gallery info
@@ -471,6 +454,7 @@ a {
 .gallery_title,
 .gallery_subtitle {
     text-align: center;
+    width: var(--width-container);
 }
 /*  -------------------------
     b.  word search puzzle
@@ -579,7 +563,6 @@ a {
 @media screen and (min-width: 1200px) {
     section {
         width: var(--width-section-desktop);
-        padding-top: var(--mp-container2);
     }
     /*  --------------------------------------------------
         3.  navigation bar desktop
@@ -592,17 +575,15 @@ a {
         position: relative;
     }
     .nuwen_img {
-        height: 640px;
         position: absolute;
-        top: var(--mp-container2);
+        top: var(--mp-container);
         left: 50%;
+        height: 660px;
         transform: translate(-50%, 0);
-        background-color: var(--clr-dark);
-        border-radius: var(--br-container);
     }
     .box_container {
         width: 100%;
-        height: 700px;
+        height: 720px;
         position: relative;
     }
     .box {
@@ -625,4 +606,8 @@ a {
     .box_body {
         height: var(--height-box);
     }
+    /* studio project */
+    /* .studio_projects {
+        background-color: #005ae0;
+    } */
 }
