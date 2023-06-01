@@ -15,7 +15,7 @@ const Nuwen = () => {
         </div>
 
         <div className="nuwen_img">
-          <img src="/images/char5.png" alt="" />
+          <img src="https://i.pinimg.com/originals/59/72/96/597296d8e5b716ed204d21cbb71d4589.png" alt="" />
         </div>
     </section>
   )
